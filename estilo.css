@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*ESTILO FONTES BODY*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600&display=swap');
+
+body{
+  background-color: #E5E5E5;
+  font-family: 'Inter', sans-serif;
+}
+
+.lupa{
+ width: 400px;
+ height: 944px;
+ border-radius: 32px;
+ margin:40px;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ float: right;
+ background-color: aliceblue;
+ justify-items: center;
+ position: relative;
+}
+#text-area-vazia{
+padding: 10px;
+  width: 382px;
+  height: 700px;
+  border-radius: 32px;
+  justify-content: center;
+  float: right;
+  background-color:transparent;
+  resize:none;
+  position: absolute;
+  color:#0A3871;
+  text-transform: lowercase;
+  font-size: 20px;
+  align-items: center;
+  
+  
+}
+#text-area{
+  width: 900px;
+  height: 600px;
+  background-color:#E5E5E5;
+  padding: 10px;
+  margin-left: 15px;
+  margin-top: 40px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  resize: none;
+  position: relative;
+  text-transform: lowercase;
+  display: flex;
+  flex-direction: column;
+  border-radius: 32px;
+  color: #0A3871;
+  font-size: 32px;
+  
+}
+  #imagem1 {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+                                  
+}
+
+#logo{
+  width: 40px;
+  height: 40px;
+  display: flexbox;
+  margin-bottom: 80px;
+  margin-top: 20px;
+  flex-direction: column;
+
+}
+#texto-digitar{
+  width: 680px;
+  height: 48px;
+  margin-left: 114px;
+ font-size: 32px;
+ color: #0A3871;
+ 
+}
+#criptografar {
+  width: 300px;
+  height: 67px;
+  background-color: #0A3871;
+  border-radius: 24px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color:white;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+#descriptografar {
+  width: 300px;
+  height: 67px;
+  background-color: rgba(216, 223, 232, 1);
+  border-radius: 24px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color:#0A3871;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  border-color: #0A3871 ;
+  border:2px;
+}
+.botoes{
+  width: 900px;
+  height: 73px;
+  margin-top: 10px;
+  margin-left: 15px;
+  display: flex;
+  justify-content:space-around;
+}
+.imagem_alerta{
+  width: 400px;
+  height:18px;
+display: flex;
+margin-left: 15px;
+}
+.img2 div{
+  width: 8px;
+  height: 8px;
+  margin: right 15px;
+}
+#texto_alerta{
+  margin-left: 10px;
+  margin-top: 2px;
+}
+p{
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h1{
+  font-style: bold;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+#copiar{
+  width: 100px;
+  height: 67px;
+  background-color: rgba(216, 223, 232, 1);
+  border-radius: 24px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  color:#0A3871;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+#bt-copia{
+  display: flex;
+  justify-content:center;
+}
+footer{
+  width: 100%;
+  margin-top: 300px;
+  margin-bottom: 10px;
+  color:#0A3871;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+ }
+footer a{
+margin: 5px;;
+color:#0A3871;
+flex-direction: row;
+justify-content: space-between;
+}
